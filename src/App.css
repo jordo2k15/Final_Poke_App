@@ -1,0 +1,95 @@
+.moduleButton{
+  margin-left: 150px;
+  margin-bottom: 80px;
+}
+.pokemonHidden{
+  position:absolute;
+  top: 150px;
+  left: 250px;
+  filter:contrast(0%) brightness(0%);
+}
+.pokemonShow{
+  position:absolute;
+  top: 150px;
+  left: 450px;
+  filter:contrast(100%) brightness(100%);
+}
+.catch{
+    position:absolute;
+    top: 500px;
+    left:300px;
+    width: 100%;
+}
+.submit{
+  position: absolute;
+  top: 40px;
+  left: 45px;
+  background-color: rgb(80, 80, 80); /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.loading{
+    position:absolute;
+    top: 90px;
+    left: 275px;
+}/*
+.Sidebar{
+  background-color: #404040;
+  height: 130vh;
+  width: 15vw;
+  margin: 0%;
+  padding-right: 0%
+}
+.SidebarList{
+  height: auto;
+  padding: 0%;
+  margin: 0%;
+  width: 100%;
+}
+.SidebarList .row {
+  width: 100%;
+  height: 50px;
+  border-bottom: 0.5px solid;
+  border-color: rgb(129, 129, 129);
+  list-style-type: none;
+  margin: 0%;
+  display: flex;
+  flex-direction: row;
+  color: rgb(255, 255, 255);
+  justify-content: center;
+  align-items: center;
+  font-family:sans-serif;
+}
+.row #icon{
+  flex: 30%;
+display: grid;
+place-items: center;
+
+}
+.row #title{
+  flex: 70%;
+}
+@media screen and (min-width: 100px) {
+  .Sidebar {
+    width: 200px; float: left;
+  }
+  }
+
+
+  .nav-tabs{
+  background-color: rgb(230, 63, 63);
+}
+.nav-link{
+  background-color: rgb(230, 63, 63);
+
+}
+*/
+main{
+  background-color: rgb(233, 75, 75);
+
+}
